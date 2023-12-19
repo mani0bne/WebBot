@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4;
+    border-spacing: 15px;
+}
+
+div{
+    background-color: #fff;
+    max-width: 400px;
+    margin: 50px auto;
+    padding:10px;
+    border-radius:8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3{
+    text-align: center;
+    color: rgb(158, 111, 22);
+}
+
+.Email,
+.password{
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+
+.Email
+.password input{
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px;
+   
+}
+
+button{
+    color: red;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    div {
+        margin: 20px;
+    }
+}
+
